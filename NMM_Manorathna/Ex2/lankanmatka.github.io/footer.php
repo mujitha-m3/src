@@ -1,3 +1,4 @@
+<!-- footer -->
 <section id="footer">
             <div class="footer text-center">
                 <div class="container">
@@ -53,8 +54,8 @@
                     </div>
                 </div>
             </div> <!--footer-->
-</section>
-</div> <!--container-->
+        </section>
+    </div> <!--container-->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
