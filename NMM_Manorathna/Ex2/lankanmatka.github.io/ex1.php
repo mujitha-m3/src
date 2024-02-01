@@ -38,20 +38,29 @@
                         $g3 = 5;
                     ?>
                         <table>
-                            <td>S.n.</td><td>Name</td><td>Grade</td>
                             <tr>
-                                <td>1</td><td>John</td>
-                                <td><php echo $g1 ?>
+                                <th>
+                                    <td>S.n.</td>
+                                    <td>Name</td>
+                                    <td>Grade</td>
+                                </th>
                             </tr>
                             <tr>
-                                <td>2</td><td>David</td>
-                                <td><php echo $g2 ?></tr>
+                                <td>1</td>
+                                <td>John</td>
+                                <td><?php echo $g1; ?>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>David</td>
+                                <td><?php echo $g2; ?>
+                            </tr>
                             <tr>
                                 <td>3</td>
                                 <td>Michael</td>
-                                <td><php echo $g3 ?>    
+                                <td><?php echo $g3; ?>    
                             </tr>
                         </table>
                     <h3>3.4 Take a screenshot that confirms your development environment setup and include it as an image in the "ex1.php" file.</h3>
-                    <img src="assets/images/Exe/24.png" alt="Web development environment" style="width: 100%; height: auto;">
+                    <img src="assets/images/Exe/24.PNG" alt="Web development environment" style="width: 100%; height: auto;">
 <?php include 'footer.php'; ?>

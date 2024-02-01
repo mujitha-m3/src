@@ -21,24 +21,12 @@
                     <a href="" class="logo"><img src="assets/images/logo/logo.png" alt="LankanMatka"></a>
                     <nav class="navbar navbar-expand-md">
                         <ul>
-                        <li class="hideOnMobile"><a href="ex1.php">Exercise01</a></li>
-                        <li class="hideOnMobile"><a href="ex2.php">Exercise02</a></li>
-                        <li onclick="showSidebar()" class="menu-button"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" fill="#fff"/></svg></a></li>
+                        <li><a href="ex1.php">Exercise01</a></li>
+                        <li><a href="ex2.php">Exercise02</a></li>
+                        <li><a href="ex3.php">Exercise03</a></li>
+                        <li><a href="ex4.php">Exercise04</a></li>
                         </ul>
                     </nav>
-
-                    <script>
-                        function showSidebar() {
-                            const sidebar = document.querySelector('.sidebar');
-                            sidebar.style.display = 'flex';
-                        }
-                    
-                        function hideSidebar() {
-                            const sidebar = document.querySelector('.sidebar');
-                            sidebar.style.display = 'none';
-                        }
-                        
-                    </script>
                 </header>
             </div>
         </div>

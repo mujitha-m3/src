@@ -1,7 +1,8 @@
 <?php 
-     $title ="Exercise 2";
-     $h1 = "Exercise 2 - Universal Header and Footer";
-include 'header.php'; ?>
+    $title ="Exercise 2";
+    $h1 = "Exercise 2 - Universal Header and Footer";
+    include 'header.php'; 
+?>
 
         <section id="plan">
             <div class="tourPlan text-center">
