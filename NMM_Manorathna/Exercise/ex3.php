@@ -16,6 +16,8 @@
                     layout as your other pages and that your navigation bar includes a link to this exercise.</h3>
 
                 <br>
+
+
                 <h3>02. Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname. Use the echo 
                     statement to print “Hello [Firstname] [Lastname], You are welcome to my site.” inside an h3 tag.</h3>
                 <div class="container mt-2">
@@ -42,6 +44,8 @@
                         </div>
                     </div>
                     <br>
+
+                    <!-- Here only added the bootstrap styling to the form for exercise 3 without php function -->
                     <h3>03. Bootstrap Styling: Apply Bootstrap styles to the form. Make sure to include the Bootstrap CSS link in your tag.</h3>
                     <div class="row">
                         <div class="col-md-3 m-4">
@@ -59,9 +63,10 @@
                         </div>
                     </div>
                     <br>
+
+
                     <h3>04. HTML Table: Prepare a simple HTML table and apply Bootstrap styles to it. Note, you have already done a table 
                         in Exercise 1. If you wish, you can use the same table.</h3>
-                    <!-- Bootstrap Table -->
                     <div class="row">
                         <div class="col m-4">
                             <table class="table mt-4">
@@ -93,6 +98,8 @@
                         </div>
                     </div>
                     
+
+
                     <h3>05. String Variables: Write a PHP script with two string variables ($str1 = "Hello"; $str2 = "World";). 
                         Join them together and print the length of the string.</h3>
 
@@ -104,6 +111,8 @@
                             echo "<h4>Joined String: $joinedString</h4>";
                         ?>
                     <br>
+
+
                     <h3>06. Number Addition: Write a script to add up the numbers: 298, 234, 46. Use 
                         variables to store these numbers and an echo statement to output your answer.</h3>
                     
@@ -115,18 +124,19 @@
                             echo "<h4>Sum of Numbers: $sum</h4>";
                         ?>
                     <br>
+
+                    
                     <h3>07. Browser Detection: Write a PHP script to detect the 
                         browser being used to view your pages. Hint: Use predefined variables: $_SERVER.</h3>
 
                     <?php 
-                        // Get the user agent first
+                       
                         $user_agent = $_SERVER['HTTP_USER_AGENT'];
 
-                        // Then Detect the browser based on the user agent
                         if (preg_match('/Firefox/i', $user_agent)) {
                             $browser = 'Mozilla Firefox';
                         } elseif (preg_match('/MSIE/i', $user_agent)) {
-                            $browser = 'Internet Explorer';
+                            $browser = 'Microsoft Edge';
                         } elseif (preg_match('/Chrome/i', $user_agent)) {
                             $browser = 'Google Chrome';
                         } elseif (preg_match('/Safari/i', $user_agent)) {
@@ -137,7 +147,6 @@
                             $browser = 'Unknown';
                         }
 
-                        // Display the identified browser
                         echo "<h4>Detected browser: $browser</h4>";
                     ?>
                     <br>

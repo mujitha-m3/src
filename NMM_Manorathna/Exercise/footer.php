@@ -55,9 +55,10 @@
 
                                 // Get the last modification time of the current file
                                 $file_last_modified = filemtime($current_file_name);
+                               
 
                                 // Display the last modified time in a human-readable format
-                                echo "Last modified: " . date("F d Y H:i:s.", $file_last_modified);
+                                echo "Last modified File: ". $current_file_name ."<br>Date and time:" .date("F d Y H:i:s.", $file_last_modified);
                             ?>                            
                         </div>
                         <div class="col-md-4">

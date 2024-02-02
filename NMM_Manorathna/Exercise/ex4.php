@@ -61,7 +61,7 @@
                                 echo "<h4>It's August, so it's still holiday.</h4>";
                                 break;
                             default:
-                                echo "<h4>Not August, this is $currentMonth so I don't have any holidays</h4>";
+                                echo "<h4 style='color: blue;'>Not August, this is $currentMonth so I don't have any holidays</h4>";
                         }
                     ?>
                 <br>
