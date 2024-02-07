@@ -32,6 +32,7 @@ $row= mysqli_fetch_array($result);
   <div class="row">
     <div class="col">
       <button type="submit" class="btn btn-primary" name="submit">Update</button>
+      <button type="submit" class="btn btn-primary" name="back"><a href="index.php" style="color: white;">Back</a></button>
     </div>
   </div>
 </form>
