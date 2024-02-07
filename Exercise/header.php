@@ -25,6 +25,8 @@
                         <li><a href="ex2.php">Exercise02</a></li>
                         <li><a href="ex3.php">Exercise03</a></li>
                         <li><a href="ex4.php">Exercise04</a></li>
+                        <li><a href="#">Exercise05</a></li>
+                        <li><a href="ex7/index.php">Exercise07</a></li>
                         </ul>
                     </nav>
                 </header>
